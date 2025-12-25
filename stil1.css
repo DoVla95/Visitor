@@ -1,0 +1,16 @@
+p{
+    color:blue;
+    background-color: pink;
+    
+}
+h2{
+    color:#FF0000;
+    background-color: #0fce22; 
+}
+h1{
+    color:rgb(205, 50, 10);
+    background-color: rgba(205,50,10, 0.1);
+}
+button{
+    color:hsl(0, 100%, 50%)
+}

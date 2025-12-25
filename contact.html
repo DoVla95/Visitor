@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="vstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor | Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="visit.html"><img src="visitorsvg.svg" alt="Logo"></a>
+            <nav class="nav-list">
+                <ul>
+                    <li><a href="visit.html">Home stranica</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="form-lead">
+                    
+                <div>
+                    <h2>Contact Us</h2>
+                    <form action="">
+                        <div>
+                            <label for="#firstname">First name</label><br>
+                            <input id="firstname" type="text" value="">
+                            <p id="error-name"></p>
+                        </div>
+                        <div>
+                            <label for="#lastname">Last name</label><br>
+                            <input id="lastname" type="text" value="">
+                            <p id="error-lastname"></p>
+                        </div>
+                        <div>
+                            <label for="#email">Email adress</label><br>
+                            <input id="email" type="email" value="" required>
+                            <p id="error-email"></p>
+                        </div>
+                        <div>
+                            <span>Your gender</span> <br>
+                            <input id="male" type="radio" name="gender" value="male"> <label for="#male">Male</label>
+                            <input id="female" type="radio" name="gender" value="female"> <label for="#female">Female</label>        
+                        </div>
+                        <div>
+                            <label for="#massage">Your massage</label><br>
+                            <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                        </div>                       
+                        <button onclick="validateFormInput();" id="submit" type="submit">submit</button>                       
+                    </form>
+                    </div>
+                    <figure>
+                     <img src="images/contact.png" alt="contact photo">
+                    </figure>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/Don.Dovla.Corleone/" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/vlado_995/?hl=sr" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCsqfhtpZdPLASSEW1j3XNwA" target="_blank">Youtube</a>
+                    </li>
+                </ul>
+            </nav>
+            <p>Visitor &copy; 2024. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

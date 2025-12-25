@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap);
+*{ 
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 87%;
+    margin:0px auto;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    background-color: #EFEFEF;
+    margin: 0;
+}
+a{
+    color: #D2001A;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #EFEFEF;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+header nav a{
+    text-transform: uppercase;
+}
+form button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li{
+    margin: 40px;
+}
+.lead-section{
+    margin-top: 137px;
+    display: flex;
+    padding-block: 60px;
+    justify-content: space-between;
+}
+.lead-text{
+    margin-right: 150px;
+}
+.lead-text a{
+    padding: 5px;
+}
+.lead-section img{
+    border-radius: 10px;
+}
+.destination-a{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin: 70px 0;
+
+}
+.destination-a img{
+    border-radius: 30px 10px 30px 10px;
+}
+.article-text{
+    margin-left: 10%;
+}
+footer{
+    text-align: center;
+    padding-top: 80px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li{
+    margin: 20px;
+}
+footer nav a{
+    padding: 5px;   
+}
+.form-lead{
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+}
+.form-lead input,.form-lead textarea{
+    width: 100%;
+    border: 2px solid transparent;
+
+}
+.form-lead input{
+        min-height: 30px;
+}
+.form-lead #male, .form-lead #female{
+    width: 50px;
+    min-height: 8px;
+}
+.about-lead{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.our-Journey{
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    margin: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-lead{
+    margin-top: 137px;
+}
+.our-Journey figure{
+    order: 1;
+}
+.our-Journey div{
+    order: 2;
+}
+.destinations-section ol{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    list-style:none ;
+    text-align: center;
+    margin-top: 40px;
+}
+.destinations-section h2{
+    text-align: center;
+}
+#submit{
+    margin-top: 40px;
+    font-weight: 600;
+    background-color: #D2001A;
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 2px;
+}
+.form-lead{
+    margin-top: 137px;
+}
+
+/* stanja elemenata*/
+
+
+
+
+.nav-list ul a{
+    border-bottom: 2px solid transparent;
+    padding-inline: 4px;
+}
+.nav-list ul a:hover{
+    border-bottom: 2px solid #D2001A
+}
+.destinations-section ol a:hover{
+    color: #D2001A;
+    opacity: 0.6;
+    font-weight: 800;
+}
+.lead-text a:hover,
+footer nav a:hover{
+    color: white;
+    background-color: #D2001A;
+}
+#submit:hover{
+    border: 2px solid #D2001A;
+    color: #D2001A;
+    background-color: white;
+}
+.form-lead form input:focus,.form-lead textarea:focus{
+    outline: 2px solid #D2001A;
+    border: 2px solid transparent;
+}
+#error-name,#error-lastname,#error-email{
+    color: #D2001A;
+    font-weight: 700;
+}
+
+
+@media(max-width:800px){
+    .destination-a{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        align-items: center;
+        margin: 70px 0;
+    
+    }
+    .destination-a img{
+        margin-inline: auto;
+    }
+}
